@@ -1,6 +1,7 @@
-﻿Console.Write("Введите первое число: ");
-int a = int.Parse(Console.ReadLine()?? "0");
+﻿//По двум заданным числам проверять является ли первое квадратом второго
+Console.Write("Введите первое число: ");
+double a = double.Parse(Console.ReadLine()?? "0");
 Console.Write("Введите второе число: ");
-int b = int.Parse(Console.ReadLine()?? "0");
+double b = double.Parse(Console.ReadLine()?? "0");
 if (Math.Pow(a, 2) == b) Console.Write(a+"^2 = "+b);
 else Console.Write(a+"^2 != "+b);
