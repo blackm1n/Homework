@@ -12,7 +12,7 @@ Console.Write("Введите первое число: ");
 double a = double.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите второе число: ");
 double b = double.Parse(Console.ReadLine() ?? "0");
-Console.Write("Введите второе число: ");
+Console.Write("Введите третье число: ");
 double c = double.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine("Максимальное: " + Max(a, b, c));
