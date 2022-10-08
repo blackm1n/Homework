@@ -4,6 +4,6 @@ int number = int.Parse(Console.ReadLine() ?? "0");
 int index = 1;
 while (index <= number)
 {
-    Console.WriteLine(index + "^2 = " + Math.Pow(index, 3));
+    Console.WriteLine(index + "^3 = " + Math.Pow(index, 3));
     index++;
 }
