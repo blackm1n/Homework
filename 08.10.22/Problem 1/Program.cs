@@ -2,6 +2,7 @@
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine() ?? "0");
 int index = 1;
+
 while (index <= number)
 {
     Console.WriteLine(index + "^3 = " + Math.Pow(index, 3));

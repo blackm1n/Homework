@@ -3,6 +3,7 @@ Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine() ?? "0");
 int index = 1;
 double cube = 0;
+
 while (index <= number)
 {
     cube = Math.Pow(index, 3);
