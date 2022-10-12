@@ -8,10 +8,20 @@ void FillArray(int[] arr)
     }
 }
 
+void PrintArray(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write($"{arr[i]} ");
+    }
+}
+
 Console.Write("Введите длину массива: ");
 int length = int.Parse(Console.ReadLine() ?? "0");
 int[] array = new int[length];
 FillArray(array);
+PrintArray(array);
+Console.WriteLine();
 
 int even = 0;
 int odd = 0;

@@ -9,8 +9,18 @@ void FillArray(int[] arr)
     }
 }
 
+void PrintArray(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write($"{arr[i]} ");
+    }
+}
+
 int[] array = new int[12];
 FillArray(array);
+PrintArray(array);
+Console.WriteLine();
 
 int possum = 0;
 int negsum = 0;
