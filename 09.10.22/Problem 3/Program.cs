@@ -4,7 +4,7 @@ void FillArray(int[] arr)
     for (int i = 0; i < arr.Length; i++)
     {
         var random = new Random();
-        arr[i] = random.Next(100,1000);
+        arr[i] = random.Next(100, 1000);
     }
 }
 
@@ -19,6 +19,7 @@ void PrintArray(int[] arr)
 Console.Write("Введите длину массива: ");
 int length = int.Parse(Console.ReadLine() ?? "0");
 int[] array = new int[length];
+
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
