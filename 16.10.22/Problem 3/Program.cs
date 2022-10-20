@@ -47,5 +47,6 @@ double[,] array = new double[m, n];
 
 FillArray(array);
 PrintArray(array);
+
 EvenIndexToSquare(array);
 PrintArray(array);
