@@ -33,8 +33,11 @@ int m = int.Parse(Console.ReadLine() ?? "0");
 int[] array = new int[m];
 
 FillArray(array);
+
 Console.Write("Ориг. - ");
 PrintArray(array);
+
 int[] array2 = CopyArray(array);
+
 Console.Write("Копия - ");
 PrintArray(array2);
