@@ -29,6 +29,11 @@ void FillArray(int[,] array)
 //Главное решение задачи.
 int[,]? MultiplicationOfMatrixes(int[,] array, int[,] array2)
 {
+    //Говорили что вы приняли только тогда, когда матрицы были квадратными. Я считаю это неверно, поэтому оставлю закоменнтированым.
+    /*if (array.GetLength(0) != array2.GetLength(0) || array.GetLength(1) != array2.GetLength(2))
+    {
+        return null;
+    }*/
     if (array.GetLength(1) != array2.GetLength(0))
     {
         return null;
@@ -38,7 +43,7 @@ int[,]? MultiplicationOfMatrixes(int[,] array, int[,] array2)
     {
         for (int j = 0; j < result.GetLength(1); j++)
         {
-            for (int k = 0; k < array.GetLength(0); k++)
+            for (int k = 0; k < array.GetLength(1); k++)
             {
                 result[i, j] += array[i, k] * array2[k, j];
             }
