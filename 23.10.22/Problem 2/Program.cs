@@ -23,7 +23,7 @@ void FillArray(int[,] array)
     }
 }
 
-int[,] RemoveRowAndCollumnWithSmallestElement(int[,] array)
+int[,] RemoveIntersectionWithMinElement(int[,] array)
 {
     int minelement = array[0, 0];
     int[] minposition = {0, 0};
@@ -69,7 +69,7 @@ FillArray(array);
 Console.WriteLine("До:");
 PrintArray(array);
 
-int[,] result = RemoveRowAndCollumnWithSmallestElement(array);
+int[,] result = RemoveIntersectionWithMinElement(array);
 
 Console.WriteLine("После:");
 PrintArray(result);
