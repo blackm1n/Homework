@@ -13,7 +13,7 @@ void PrintArrayWithIndexes(int[,,] array)
     }
 }
 
-void FillArrayWithoutRepeat(int[,,] array, int min, int max)
+void FillArrayWithoutRepeat(int[,,] array)
 {
     var random = new Random();
     int randnumber = 0;
@@ -22,7 +22,7 @@ void FillArrayWithoutRepeat(int[,,] array, int min, int max)
     int[] memory = new int[array.GetLength(0) * array.GetLength(1) * array.GetLength(2)];
     for (int i = 0; i < memory.Length; i++)
     {
-        memory[i] = min-1;
+        memory[i] = 0;
     }
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -34,7 +34,7 @@ void FillArrayWithoutRepeat(int[,,] array, int min, int max)
                 while (check)
                 {
                     check = false;
-                    randnumber = random.Next(min, max+1);
+                    randnumber = random.Next(10, 100);
                     for (int l = 0; l < memory.Length; l++)
                     {
                         if (randnumber == memory[l])
@@ -59,17 +59,12 @@ int n = int.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите o: ");
 int o = int.Parse(Console.ReadLine() ?? "0");
 
-Console.Write("Введите min: ");
-int min = int.Parse(Console.ReadLine() ?? "0");
-Console.Write("Введите max: ");
-int max = int.Parse(Console.ReadLine() ?? "0");
-
 int[,,] array = new int[m, n, o];
 
-if (m * n * o > Math.Abs(min) + Math.Abs(max) + 1)
+if (m * n * o > 90)
     Console.WriteLine("Невозможно без повторений");
 else
 {
-    FillArrayWithoutRepeat(array, min, max);
+    FillArrayWithoutRepeat(array);
     PrintArrayWithIndexes(array);
 }
