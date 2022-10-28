@@ -30,7 +30,7 @@ void FillArray(int[,] array)
 int[,]? MultiplicationOfMatrixes(int[,] array, int[,] array2)
 {
     //Говорили что вы приняли только тогда, когда матрицы были квадратными. Я считаю это неверно, поэтому оставлю закоменнтированым.
-    /*if (array.GetLength(0) != array2.GetLength(0) || array.GetLength(1) != array2.GetLength(2))
+    /*if (array.GetLength(0) != array2.GetLength(0) || array.GetLength(1) != array2.GetLength(1))
     {
         return null;
     }*/
@@ -85,8 +85,10 @@ int[,] array2 = new int[m2, n2];
 
 FillArray(array);
 FillArray(array2);
+
 Console.WriteLine("Первая матрица:");
 PrintArray(array);
+
 Console.WriteLine("Вторая матрица:");
 PrintArray(array2);
 

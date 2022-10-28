@@ -58,6 +58,7 @@ Console.Write("Введите n: ");
 int n = int.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите o: ");
 int o = int.Parse(Console.ReadLine() ?? "0");
+
 Console.Write("Введите min: ");
 int min = int.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите max: ");
