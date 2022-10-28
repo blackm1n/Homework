@@ -47,6 +47,7 @@ int n = int.Parse(Console.ReadLine() ?? "0");
 int[,] array = new int[m, n];
 
 FillArray(array);
+
 int[,]? result = RowsToCollumns(array);
 if (result != null)
 {

@@ -54,6 +54,7 @@ int n = int.Parse(Console.ReadLine() ?? "0");
 int[,] array = new int[m, n];
 
 FillArray(array);
-int result = RowWithLowestSum(array);
 PrintArray(array);
+
+int result = RowWithLowestSum(array);
 Console.WriteLine($"{result} строка имеет наименьшую сумму элементов");

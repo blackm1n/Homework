@@ -51,8 +51,11 @@ int n = int.Parse(Console.ReadLine() ?? "0");
 int[,] array = new int[m, n];
 
 FillArray(array);
+
 Console.WriteLine("До");
 PrintArray(array);
+
 SortArray(array);
+
 Console.WriteLine("После");
 PrintArray(array);
