@@ -6,7 +6,7 @@ def randlist(table):
         return print('Not a list')
     if len(table) == 1:
         return table
-    for i in range(100):
+    for i in range(len(table) * 4):
         check = True
         while check:
             a = random.randint(0, len(table) - 1)
@@ -20,8 +20,8 @@ def randlist(table):
 
 table = list(map(str, input("Введите массив: ").split(", ")))
 
-print(table)
+print(f'До: {table}')
 
 randlist(table)
 
-print(table)
+print(f'После: {table}')
