@@ -1,3 +1,5 @@
+# Реализуйте алгоритм перемешивания списка.
+
 import random
 
 
@@ -18,7 +20,7 @@ def randlist(table):
         table[b] = temp
 
 
-table = list(map(str, input("Введите массив: ").split(", ")))
+table = list(map(str, input("Введите список: ").split(", ")))
 
 print(f'До: {table}')
 
