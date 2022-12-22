@@ -3,7 +3,7 @@
 table = list(map(int, input("Введите числа: ").split(", ")))
 
 result = []
-for i in range(len(table)//2 + 1):
+for i in range(len(table) // 2 + 1):
     result.append(table[i] * table[-i - 1])
 
 print(result)
