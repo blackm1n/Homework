@@ -15,9 +15,7 @@ def randlist(table):
             b = random.randint(0, len(table) - 1)
             if a != b:
                 check = False
-        temp = table[a]
-        table[a] = table[b]
-        table[b] = temp
+        table[a], table[b] = table[b], table[a]
 
 
 table = list(map(str, input("Введите список: ").split(", ")))
