@@ -19,7 +19,6 @@ for i in file1:
     polynomial.append(i)
 for i in file2:
     polynomial.append(i)
-print(polynomial)
 
 maxexp = 0
 for i in polynomial:
@@ -66,6 +65,8 @@ for exp in range(-maxexp, 1):
                 result.append(f'{int(polynomial[i]) + int(polynomial[j])}')
         if len(polynomial) == 1 and exp == 0:
             result.append(f'{int(polynomial[0])}')
+
+print(result)
 
 with open('file3.txt', 'a') as file:
     for i in range(len(result)):
