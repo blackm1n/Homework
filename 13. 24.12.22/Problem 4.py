@@ -2,6 +2,7 @@
 
 import random
 
+
 def RandPolynomial(k):
     result = ''
     for i in range(-k, 1):
@@ -25,6 +26,7 @@ def RandPolynomial(k):
         if coefficient >= 1 and i >= 1:
             result += '+'
     return result
+
 
 k1 = int(input("Введите k1: "))
 k2 = int(input("Введите k2: "))
