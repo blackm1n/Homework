@@ -68,7 +68,7 @@ for exp in range(-maxexp, 1):
 
 print(result)
 
-with open('file3.txt', 'a') as file:
+with open('file3.txt', 'w') as file:
     for i in range(len(result)):
         if i < len(result) - 1:
             file.write(f'{result[i].replace("1x", "x")}+')
