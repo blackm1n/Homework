@@ -33,10 +33,10 @@ k2 = int(input("Введите k2: "))
 
 with open('file1.txt', 'w') as file:
     poly = RandPolynomial(k1)
-    file.write(poly)
+    file.write(poly + '=0')
     print(poly)
 
 with open('file2.txt', 'w') as file:
     poly = RandPolynomial(k2)
-    file.write(poly)
+    file.write(poly + '=0')
     print(poly)

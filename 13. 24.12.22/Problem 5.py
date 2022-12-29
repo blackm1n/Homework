@@ -10,9 +10,9 @@ def tryint(string):
 
 
 with open('file1.txt', 'r') as file:
-    file1 = list(map(str, file.read().split('+')))
+    file1 = list(map(str, file.read().replace("=0", "").split('+')))
 with open('file2.txt', 'r') as file:
-    file2 = list(map(str, file.read().split('+')))
+    file2 = list(map(str, file.read().replace("=0", "").split('+')))
 
 polynomial = []
 for i in file1:
