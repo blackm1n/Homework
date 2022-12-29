@@ -4,6 +4,9 @@
 
 from math import pi
 
-d = len(str(float(input("Введите число от 10^-10 до 10^-1: "))))-2
+d = float(input("Введите число от 10^-10 до 10^-1: "))
 
-print(round(pi, d))
+if d >= (10 ** -10) and d <= (10 ** -1):
+    print(round(pi, len(str(d)) - 2))
+else:
+    print("Неверный формат.")
