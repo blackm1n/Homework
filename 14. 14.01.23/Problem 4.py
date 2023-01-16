@@ -3,39 +3,43 @@
 def RLE_Compress(string):
     count = 0
     result = []
+    j = 0
+    state = 0
     for i in range(len(string)):
-        count += 1
-        if i < len(string) - 1:
-            if string[i] != string[i + 1]:
-                result.append([count, string[i]])
-                count = 0
-        else:
+        print(result)
+        if state == 0:
+            count = 1
             result.append([count, string[i]])
-
-    count = 0
-    inserted = 0
-    memory = ""
-    for i in range(len(result)):
-        i += inserted
-        if result[i][0] == 1:
+            if i < len(string) - 1:
+                if string[i] == string[i + 1]:
+                    state = 1
+                else:
+                    state = 2
+            continue
+        elif state == 1:
             count += 1
-            memory += result[i][1]
-        else:
-            if len(memory) > 1:
-                result.insert(i, [-count, memory])
-                inserted += 1
-                count = 0
-                memory = ""
-        if i == len(result) - 1 and len(memory) > 1:
-            result.append([-count, memory])
-
-    popped = 0
-    for i in range(len(result) - 1):
-        if result[i - popped][0] == 1 and (result[i - popped + 1][0] == 1 or result[i - popped + 1][0] < 0):
-            result.pop(i - popped)
-            popped += 1
+            result[j][0] = count
+            if i < len(string) - 1:
+                if string[i] != string[i + 1]:
+                    state = 0
+                    j += 1
+        elif state == 2:
+            if i < len(string) - 1:
+                if string[i] == string[i + 1]:
+                    state = 1
+                    j += 1
+                    count = 1
+                    result.append([count, string[i]])
+                    if i < len(string) - 1:
+                        if string[i] == string[i + 1]:
+                            state = 1
+                        else:
+                            state = 2
+                    continue
+            count += 1
+            result[j][0] = -count
+            result[j][1] += string[i]
     return result
-
 
 def RLE_Uncompress(RLE):
     result = ""
