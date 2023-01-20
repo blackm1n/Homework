@@ -1,17 +1,22 @@
-# Из домашнего задания на 17.12.22 - Задача 3
-# Задайте список из n чисел последовательности (1+1/n)**n и выведите на экран их сумму.
+# Из домашнего задания на 18.12.22 - Задача 3
+# Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
 
 # Старое решение
 
-# n = int(input("Введите число: "))
+# table = list(map(float, input("Введите вещественные числа: ").split(", ")))
 #
-# sequence = []
-# for i in range(1, n + 1):
-#     sequence.append((1 + (1 / i)) ** i)
+# count = 0
+# for i in range(len(table)):
+#     if table[i - count] % 1 == 0:
+#         table.pop(i - count)
+#         count += 1
+#     else:
+#         table[i - count] = round(table[i - count] % 1, 5)
 #
-# print(sequence)
-# print(sum(sequence))
+# print(max(table) - min(table))
 
 # Новое решение
 
-print(sum([(1 + (1 / i)) ** i for i in range(1, int(input("Введите число: ")) + 1)]))
+table = list(map(lambda x : round(x % 1, 5), filter(lambda x : x % 1 != 0, list(map(float, input("Введите вещественные числа: ").split())))))
+
+print(max(table) - min(table))
