@@ -2,13 +2,13 @@
 
 def RLE_Compress(string):
     count = 0
-    result = []
+    RLE = []
     j = 0
     state = 0
     for i in range(len(string)):
         if state == 0:
             count = 1
-            result += ([str(count), string[i]])
+            RLE += ([str(count), string[i]])
             if i < len(string) - 1:
                 if string[i] == string[i + 1]:
                     state = 1
@@ -17,7 +17,7 @@ def RLE_Compress(string):
             continue
         elif state == 1:
             count += 1
-            result[j * 2] = str(count)
+            RLE[j * 2] = str(count)
             if i < len(string) - 1:
                 if string[i] != string[i + 1]:
                     state = 0
@@ -28,7 +28,7 @@ def RLE_Compress(string):
                     state = 1
                     j += 1
                     count = 1
-                    result += ([str(count), string[i]])
+                    RLE += ([str(count), string[i]])
                     if i < len(string) - 1:
                         if string[i] == string[i + 1]:
                             state = 1
@@ -36,24 +36,34 @@ def RLE_Compress(string):
                             state = 2
                     continue
             count += 1
-            result[j * 2] = str(-count)
-            result[j * 2 + 1] += string[i]
+            RLE[j * 2] = str(-count)
+            RLE[j * 2 + 1] += string[i]
+    result = "".join(RLE)
     return result
 
-def RLE_Uncompress(RLE):
+def RLE_Uncompress(string):
+    num = ""
+    skip = 0
     result = ""
-    for i in range(0, len(RLE), 2):
-        if int(RLE[i]) > 0:
-            result += RLE[i + 1] * int(RLE[i])
-        else:
-            result += RLE[i + 1]
+    for i in range(len(string)):
+        if string[i].isdigit() and skip > 0:
+            continue
+        elif string[i].isdigit():
+            num += string[i]
+        elif string[i].isalpha() and skip > 0:
+            result += string[i]
+            skip -= 1
+        elif string[i].isalpha():
+            result += string[i] * int(num)
+            num = ""
+        elif string[i] == "-":
+            if string[i + 1].isdigit():
+                skip = int(string[i + 1])
     return result
+def ApplyFunctionToFile(function, input_file, output_file):
+    with open(input_file, 'r') as file_i:
+        with open(output_file, 'w') as file_o:
+            file_o.write(function(file_i.read()))
 
-
-string = input("Введите строку: ")
-
-compressed = RLE_Compress(string)
-
-print("".join(compressed))
-
-print(RLE_Uncompress(compressed))
+ApplyFunctionToFile(RLE_Compress, 'file_initial.txt', 'file_compressed.txt')
+ApplyFunctionToFile(RLE_Uncompress, 'file_compressed.txt', 'file_uncompressed.txt')
