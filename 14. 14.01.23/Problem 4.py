@@ -1,4 +1,5 @@
 # Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
+# Тоже явно не идеально, но зато работает.
 
 def RLE_Compress(string):
     count = 0
@@ -41,6 +42,7 @@ def RLE_Compress(string):
     result = "".join(RLE)
     return result
 
+
 def RLE_Uncompress(string):
     num = ""
     skip = 0
@@ -60,10 +62,13 @@ def RLE_Uncompress(string):
             if string[i + 1].isdigit():
                 skip = int(string[i + 1])
     return result
+
+
 def ApplyFunctionToFile(function, input_file, output_file):
     with open(input_file, 'r') as file_i:
         with open(output_file, 'w') as file_o:
             file_o.write(function(file_i.read()))
+
 
 ApplyFunctionToFile(RLE_Compress, 'file_initial.txt', 'file_compressed.txt')
 ApplyFunctionToFile(RLE_Uncompress, 'file_compressed.txt', 'file_uncompressed.txt')
