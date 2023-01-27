@@ -130,6 +130,8 @@ def import_file(extension, file_path):
         for i in range(2, len(raw_data)):
             lst = []
             for j in range(len(raw_data[i])):
+                if raw_data[i][j].isdigit():
+                    raw_data[i][j] = int(raw_data[i][j])
                 if raw_data[i][j] != "":
                     lst.append(raw_data[i][j])
                 if j % 5 == 4:
