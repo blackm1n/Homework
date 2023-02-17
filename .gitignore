@@ -397,4 +397,4 @@ FodyWeavers.xsd
 .idea/
 
 # IntelliJ Idea out folder
-.out/
+/out/
