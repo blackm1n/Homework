@@ -1,0 +1,94 @@
+февр. 13, 2023 8:35:31 PM Problem_21_2 BubbleSort
+INFO: Before - 2 7 7 5 6 9 1 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 0 - 2 7 7 5 6 9 1 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 1 - 2 7 7 5 6 9 1 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 2 - 2 7 5 7 6 9 1 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 3 - 2 7 5 6 7 9 1 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 4 - 2 7 5 6 7 9 1 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 5 - 2 7 5 6 7 1 9 2 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 6 - 2 7 5 6 7 1 2 9 0 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 7 - 2 7 5 6 7 1 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 0, j = 8 - 2 7 5 6 7 1 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 0 - 2 7 5 6 7 1 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 1 - 2 5 7 6 7 1 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 2 - 2 5 6 7 7 1 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 3 - 2 5 6 7 7 1 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 4 - 2 5 6 7 1 7 2 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 5 - 2 5 6 7 1 2 7 0 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 6 - 2 5 6 7 1 2 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 1, j = 7 - 2 5 6 7 1 2 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 0 - 2 5 6 7 1 2 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 1 - 2 5 6 7 1 2 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 2 - 2 5 6 7 1 2 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 3 - 2 5 6 1 7 2 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 4 - 2 5 6 1 2 7 0 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 5 - 2 5 6 1 2 0 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 2, j = 6 - 2 5 6 1 2 0 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 3, j = 0 - 2 5 6 1 2 0 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 3, j = 1 - 2 5 6 1 2 0 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 3, j = 2 - 2 5 1 6 2 0 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 3, j = 3 - 2 5 1 2 6 0 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 3, j = 4 - 2 5 1 2 0 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 3, j = 5 - 2 5 1 2 0 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 4, j = 0 - 2 5 1 2 0 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 4, j = 1 - 2 1 5 2 0 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 4, j = 2 - 2 1 2 5 0 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 4, j = 3 - 2 1 2 0 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 4, j = 4 - 2 1 2 0 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 5, j = 0 - 1 2 2 0 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 5, j = 1 - 1 2 2 0 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 5, j = 2 - 1 2 0 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 5, j = 3 - 1 2 0 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 6, j = 0 - 1 2 0 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 6, j = 1 - 1 0 2 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 6, j = 2 - 1 0 2 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 7, j = 0 - 0 1 2 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 7, j = 1 - 0 1 2 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 LogArray
+INFO: i = 8, j = 0 - 0 1 2 2 5 6 7 7 9 9 
+февр. 13, 2023 8:35:31 PM Problem_21_2 BubbleSort
+INFO: After - 0 1 2 2 5 6 7 7 9 9
