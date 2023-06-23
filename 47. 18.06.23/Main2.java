@@ -1,7 +1,3 @@
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.Queue;
-
 class HashMap {
     private class Entity {
         int key;
