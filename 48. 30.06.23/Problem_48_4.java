@@ -16,6 +16,9 @@ public class Problem_48_4 {
     }
 
     public static int[] divArray(int[] arr1, int[] arr2) {
+        if (arr1 == null || arr2 == null) {
+            throw new RuntimeException("Массива не существует");
+        }
         if (arr1.length != arr2.length) {
             throw new RuntimeException("Длины массивов не равны");
         }
