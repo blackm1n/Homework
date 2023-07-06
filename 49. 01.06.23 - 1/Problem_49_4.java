@@ -10,14 +10,11 @@ public class Problem_49_4 {
         System.out.println(inputString("Введите строку: "));
     }
 
-    // Огромная проблема с этим заданием в том, что пустые строки в IntelliJ невозможно ввести вообще.
-    // Поэтому данный код может не работать если реально ввести пустую строку.
-
     public static String inputString(String mes) {
         Scanner in = new Scanner(System.in);
         System.out.print(mes);
-        String res = in.next();
-        if (res == null) {
+        String res = in.nextLine();
+        if (res.length() == 0) {
             throw new InputMismatchException("Пустую строку ввести нельзя");
         }
         return res;
