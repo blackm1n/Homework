@@ -20,7 +20,11 @@ def guess_number():
         attempts += 1
         guess = input_number("Угадайте число от 0 до 1000: ")
         if guess != num:
-            print(f'Не получилось. Осталось {str(10 - attempts + 1)} попыток.')
+            if guess > num:
+                hint = "меньше"
+            else:
+                hint = "больше"
+            print(f'Не получилось. Число {hint} указанного. Осталось {str(10 - attempts + 1)} попыток.')
         else:
             win = True
     if win:
