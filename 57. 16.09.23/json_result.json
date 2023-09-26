@@ -1,0 +1,1268 @@
+[
+  {
+    "name": "Problem 1",
+    "parent_dir": "57. 16.09.23",
+    "isdir": true,
+    "size": 229944
+  },
+  {
+    "name": "Files",
+    "parent_dir": "Problem 1",
+    "isdir": true,
+    "size": 227369
+  },
+  {
+    "name": "aKtRkLsqpAuMTht.csv",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 619
+  },
+  {
+    "name": "DrOdQVhMAwnuqUWpumEdTJ.py",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1954
+  },
+  {
+    "name": "FJvMPjtembHUHSkt.xml",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2496
+  },
+  {
+    "name": "fnQIrYsOieQsnfHXSADCrnmfRL.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3121
+  },
+  {
+    "name": "gyQbrdgWyrnVoMKEmMqqTny.dll",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3845
+  },
+  {
+    "name": "HxOyWPIhlEjdMUfQotkdwkbLwi.csv",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1197
+  },
+  {
+    "name": "iVZJlvBvHrCHDLpOsWURlheG.xml",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1447
+  },
+  {
+    "name": "kUjEwbsW.xml",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 4048
+  },
+  {
+    "name": "LcFQKdaMnh.dll",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 991
+  },
+  {
+    "name": "lUUZKlLogNt.dll",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1960
+  },
+  {
+    "name": "mrQVdFCBmstkYKVBMbaMFrFPZNYL.csv",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2978
+  },
+  {
+    "name": "NVIyveBvVcHIdkuUtsGaT.csv",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3183
+  },
+  {
+    "name": "rJsVEkJZcyNqEYKoqPy.py",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2636
+  },
+  {
+    "name": "RTqCgzWDDWfM.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2176
+  },
+  {
+    "name": "SoyyjHInbhkiPbxomqh.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3265
+  },
+  {
+    "name": "tpFmFIrmMEPqAdYhzWnqiru.xlsx",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1366
+  },
+  {
+    "name": "VlFZDdXCZGE.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3896
+  },
+  {
+    "name": "vRtFRelBEgmRNbHqPTS.py",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 502
+  },
+  {
+    "name": "WKcHNdpVJdEQYhm.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3892
+  },
+  {
+    "name": "xqRxsGPBTXetE.csv",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 727
+  },
+  {
+    "name": "zyfcEtTWYsVGoHv.xlsx",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3909
+  },
+  {
+    "name": "\u0410\u0440\u0445\u0438\u0432",
+    "parent_dir": "Files",
+    "isdir": true,
+    "size": 23536
+  },
+  {
+    "name": "ASggJNhnAEuiS.zip",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 3850
+  },
+  {
+    "name": "eOABLZtjsXHXlwSPdSFi.7z",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 2172
+  },
+  {
+    "name": "eOeiMWcNFVcYOAnXShd.zip",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 2224
+  },
+  {
+    "name": "EwDVrnwJhlZjpmkbxvkZNaWqRo.rar",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 727
+  },
+  {
+    "name": "iIEBGsUYBhZsVBhiROXa.7z",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 796
+  },
+  {
+    "name": "KkuiCDjirrSCcTdRGsUVvkgohPM.7z",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 2716
+  },
+  {
+    "name": "njVfYFTrgyQILhykyRF.rar",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 2506
+  },
+  {
+    "name": "pXeDgIsrDMfugYoJzLAlH.7z",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 3161
+  },
+  {
+    "name": "SosEgDLehpowqvbkMdnsyVhoiLkTk.zip",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 2550
+  },
+  {
+    "name": "zhIhHfRASmnSLqSbqNrLO.7z",
+    "parent_dir": "\u0410\u0440\u0445\u0438\u0432",
+    "isdir": false,
+    "size": 2834
+  },
+  {
+    "name": "\u0410\u0443\u0434\u0438\u043e",
+    "parent_dir": "Files",
+    "isdir": true,
+    "size": 34937
+  },
+  {
+    "name": "DJiLvPYoBTghZEaEGqJvDYaJNHS.m4a",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 4049
+  },
+  {
+    "name": "dkCNtBKjTVaLSWkIjEMAImatJPI.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 2629
+  },
+  {
+    "name": "FFJMGKTfjKClydIHjXSzhNhhpI.flac",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 2705
+  },
+  {
+    "name": "hXtsJhRKmc.wav",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 419
+  },
+  {
+    "name": "IGDnoUpMOWsZmRDAmBppSkcw.m4a",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 3869
+  },
+  {
+    "name": "jOSdVmjEJAn.flac",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 1277
+  },
+  {
+    "name": "MpoYAbOUPrKxABaJEAuDXu.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 883
+  },
+  {
+    "name": "NmJvQEDRQUzDSDaFf.flac",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 2116
+  },
+  {
+    "name": "OBkafrEmeOvIKvJGBcWhmNxW.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 1043
+  },
+  {
+    "name": "oNFkPzLqzxPNiIfvnhHP.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 2370
+  },
+  {
+    "name": "PZGLFLwAksBsFmoDSmucJsgKzx.m4a",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 3161
+  },
+  {
+    "name": "QScFcOVdxLByTdFievnUmVt.wav",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 760
+  },
+  {
+    "name": "RPKczMKMJlijtmRKaHODQwFg.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 773
+  },
+  {
+    "name": "RWWjSCCfr.wav",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 1734
+  },
+  {
+    "name": "RxEzDHUqDdue.wav",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 811
+  },
+  {
+    "name": "syquXpPkUWqJIggrtolegxjAQ.wav",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 716
+  },
+  {
+    "name": "VpQaoaWhd.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 3214
+  },
+  {
+    "name": "YrRhWeyOXpgrJjxdxSbaZsPmcSIp.mp3",
+    "parent_dir": "\u0410\u0443\u0434\u0438\u043e",
+    "isdir": false,
+    "size": 2408
+  },
+  {
+    "name": "\u0412\u0438\u0434\u0435\u043e",
+    "parent_dir": "Files",
+    "isdir": true,
+    "size": 40983
+  },
+  {
+    "name": "bHYNAYoybH.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 3845
+  },
+  {
+    "name": "FTVlWxJcAv.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 763
+  },
+  {
+    "name": "GlczeYsx.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 1218
+  },
+  {
+    "name": "GLekvGEcyJctyMLPqCkW.avi",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 1943
+  },
+  {
+    "name": "iLIZJdqw.avi",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2902
+  },
+  {
+    "name": "iONIUIMuMnGojwbu.mp4",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 380
+  },
+  {
+    "name": "kRcgvFrN.avi",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 475
+  },
+  {
+    "name": "OtYwcQp.avi",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 408
+  },
+  {
+    "name": "PtfVYHbdPgHOdWFu.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2241
+  },
+  {
+    "name": "PVdhcOzipYPsuilYUQwHmpdXKKh.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 3876
+  },
+  {
+    "name": "RLsesY.mov",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2811
+  },
+  {
+    "name": "TicxxnqCNcjPZxLDRvKSlFafOg.mov",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2919
+  },
+  {
+    "name": "TvobLoeNBHxLEYQKXxWvbAVsuzJZzw.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2682
+  },
+  {
+    "name": "UCrhMeoOLBiaCIaiC.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 3766
+  },
+  {
+    "name": "VPSRpbWUV.mp4",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 3587
+  },
+  {
+    "name": "vSNBMDVFFuKFxXL.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2939
+  },
+  {
+    "name": "wXjUsfBbgO.mkv",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 742
+  },
+  {
+    "name": "ySxrLtvPNtyRgyPvXVQGLuvxXhiNg.mov",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 1376
+  },
+  {
+    "name": "zTiVoQHVHJCOSEPyhlAqs.avi",
+    "parent_dir": "\u0412\u0438\u0434\u0435\u043e",
+    "isdir": false,
+    "size": 2110
+  },
+  {
+    "name": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "parent_dir": "Files",
+    "isdir": true,
+    "size": 38327
+  },
+  {
+    "name": "aVHkHDYkQGYlQQVHynIsIAaKwc.gif",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 3366
+  },
+  {
+    "name": "CsSWazNFnSkTA.png",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 1299
+  },
+  {
+    "name": "dbZImpKFmRYb.jpg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 3037
+  },
+  {
+    "name": "iDozdvzxWsiTTi.jpeg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 3238
+  },
+  {
+    "name": "IjEutV.jpg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 2823
+  },
+  {
+    "name": "jAqAFnqvDAwXkVolyLZyV.jpg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 1037
+  },
+  {
+    "name": "KKcLKYtOtXsMfD.jpg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 1309
+  },
+  {
+    "name": "MxJZrHETUJTxvCCfUgOIpvAWfzwnz.gif",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 2448
+  },
+  {
+    "name": "oSXUNCOJOrnmbbSoPqZpkTInhNi.jpeg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 2990
+  },
+  {
+    "name": "psImfwquGnlMrrEgweXcuJOkoTAu.png",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 3220
+  },
+  {
+    "name": "SWoeJUZlnCkAOhlds.jpg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 1908
+  },
+  {
+    "name": "VuDLLFyVYjZqhwbQbAIzd.png",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 2463
+  },
+  {
+    "name": "yrFWiLkFidvgsJjbCboSX.jpg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 3720
+  },
+  {
+    "name": "zDEWAmCIIYoByAeuoHmMWkEKWSX.jpeg",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 3452
+  },
+  {
+    "name": "ZgrZINy.gif",
+    "parent_dir": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435",
+    "isdir": false,
+    "size": 2017
+  },
+  {
+    "name": "\u0422\u0435\u043a\u0441\u0442",
+    "parent_dir": "Files",
+    "isdir": true,
+    "size": 39378
+  },
+  {
+    "name": "asqPLUmSDjtTXohRcmgAlUcWRWctS.pdf",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 4019
+  },
+  {
+    "name": "BKnbKNZxtLP.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 1755
+  },
+  {
+    "name": "bPljYvOWkWo.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 2096
+  },
+  {
+    "name": "DCMkrg.pdf",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 1506
+  },
+  {
+    "name": "ECBXWrnqqt.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 786
+  },
+  {
+    "name": "eJOaYyhLFcPVefEZTdLNg.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 3906
+  },
+  {
+    "name": "FEMnZwoBlEzVCGJfgVUqbMkGqRc.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 1801
+  },
+  {
+    "name": "hOYgWstdSv.pdf",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 3665
+  },
+  {
+    "name": "iTtzyULlJtKfOHJJaJwKr.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 3628
+  },
+  {
+    "name": "lVmlfKVYEnJJ.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 3122
+  },
+  {
+    "name": "MWqCDzmigJJ.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 3967
+  },
+  {
+    "name": "NKVcRHgISprmTnWfLHPPv.docx",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 1347
+  },
+  {
+    "name": "nUeDzdJmJruyRgcBBpcQGispmKK.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 851
+  },
+  {
+    "name": "oqpvruAhjviTYuOIMvTwdZO.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 3469
+  },
+  {
+    "name": "QwjtfuZs.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 794
+  },
+  {
+    "name": "SmHbdPZozpTDKUgqVzOdE.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 299
+  },
+  {
+    "name": "XxjggJfCULqzPgieFSlLBbmLPKSt.txt",
+    "parent_dir": "\u0422\u0435\u043a\u0441\u0442",
+    "isdir": false,
+    "size": 2367
+  },
+  {
+    "name": "Problem 1.py",
+    "parent_dir": "Problem 1",
+    "isdir": false,
+    "size": 2575
+  },
+  {
+    "name": "Problem 2",
+    "parent_dir": "57. 16.09.23",
+    "isdir": true,
+    "size": 227359
+  },
+  {
+    "name": "Files",
+    "parent_dir": "Problem 2",
+    "isdir": true,
+    "size": 225101
+  },
+  {
+    "name": "aBmJJqPvfVdBZfZy.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2970
+  },
+  {
+    "name": "amAuBAXlnchixLVyEAR.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3471
+  },
+  {
+    "name": "aYgnLvrKPNPdymQrFqWCVIk.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 529
+  },
+  {
+    "name": "bfile_001.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 395
+  },
+  {
+    "name": "Bfile_002.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1706
+  },
+  {
+    "name": "bfile_003.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1872
+  },
+  {
+    "name": "CmYZOdxoG.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 300
+  },
+  {
+    "name": "CpFHrOpnUGwWILrk.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3383
+  },
+  {
+    "name": "cUuxlryFqFdMHL.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 364
+  },
+  {
+    "name": "cxZiNuUFLXJASXyV.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3037
+  },
+  {
+    "name": "Dfile_004.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3339
+  },
+  {
+    "name": "dYCWUMisGqbWfan.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1999
+  },
+  {
+    "name": "dyrnJtrfKILqFCHmnzbyNqhdswh.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3527
+  },
+  {
+    "name": "efile_005.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2901
+  },
+  {
+    "name": "eHIXlpXdTtOYAPDVzY.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1936
+  },
+  {
+    "name": "eHsTgfwzCtKcarfghWv.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3548
+  },
+  {
+    "name": "eMWGggyGuTTFhAIdciPzfBGmVZF.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3398
+  },
+  {
+    "name": "ENqrtevZvPNykaqYiPlEusJxA.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 699
+  },
+  {
+    "name": "euJmjfcfPr.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2586
+  },
+  {
+    "name": "EvzMnZbriMk.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1335
+  },
+  {
+    "name": "Ffile_006.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1344
+  },
+  {
+    "name": "fMiujdOsFSrWeFXLxhDALUDAXXUh.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1756
+  },
+  {
+    "name": "fUogQbDFWCpeXH.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2687
+  },
+  {
+    "name": "FWqrLXAbcazhz.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1227
+  },
+  {
+    "name": "gAQMxPBsIvggKunjZfRtjw.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1093
+  },
+  {
+    "name": "Gfile_007.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2593
+  },
+  {
+    "name": "gfmgMRDsLxcuWiaZ.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2599
+  },
+  {
+    "name": "GhWuhpA.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1887
+  },
+  {
+    "name": "gLUfGdo.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3194
+  },
+  {
+    "name": "gMObmaJqfxgYHgDZbvZuAncyP.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 384
+  },
+  {
+    "name": "GNcbWqSeoDXHclprm.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3530
+  },
+  {
+    "name": "gOHJCRSmNpJZqsaFMEZY.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1576
+  },
+  {
+    "name": "gqkzhpdgRZ.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3154
+  },
+  {
+    "name": "GsfrTutsrtBaUPTgEyGein.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2081
+  },
+  {
+    "name": "guJwIRcjNIOOaBGlhbfsRzNcnVPqxx.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1159
+  },
+  {
+    "name": "hfile_008.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2695
+  },
+  {
+    "name": "HkolkZzucS.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3821
+  },
+  {
+    "name": "HsyyFcSHgBRnfAoZBezmLXy.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 396
+  },
+  {
+    "name": "hTRWvQpLyjJthDFONjWwnVNmQ.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2748
+  },
+  {
+    "name": "iEXwAUp.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3742
+  },
+  {
+    "name": "JEPCMpuoEcneu.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3326
+  },
+  {
+    "name": "Jfile_009.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3708
+  },
+  {
+    "name": "jPQHvetROvKmVmVQihpytzUiA.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2603
+  },
+  {
+    "name": "kLeXEzoxNaNwGSsk.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2551
+  },
+  {
+    "name": "KNKjObubPqGknUrVCtygaMunG.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3775
+  },
+  {
+    "name": "KwMUVBJuRYvaoGdnYwbOFiYKZjSmZO.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1556
+  },
+  {
+    "name": "kysDYkrkmzkeIDxSrWroOZkZ.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1463
+  },
+  {
+    "name": "LGQlfEBBChqMgyIziNWRbaUGoD.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2417
+  },
+  {
+    "name": "LplLnIQbiMxdWldrU.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 990
+  },
+  {
+    "name": "mcfixGWaBRvlAPECxABhvyMfrNQJ.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3680
+  },
+  {
+    "name": "MuurMYEHvQSbKAgc.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 781
+  },
+  {
+    "name": "nfile_010.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 747
+  },
+  {
+    "name": "Nfile_011.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2876
+  },
+  {
+    "name": "NHlyKBKE.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 995
+  },
+  {
+    "name": "NPGkVfhHdqLxRDHBohdYeGobKfYw.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2990
+  },
+  {
+    "name": "nqhVxWHLvgcYVfegXbHXwXBMkzbs.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3134
+  },
+  {
+    "name": "nuyzskkpJjRSFvrpwyKRTZrj.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 954
+  },
+  {
+    "name": "NwmyPvMAOFZOmt.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 283
+  },
+  {
+    "name": "oQXjwi.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2847
+  },
+  {
+    "name": "Pfile_012.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3299
+  },
+  {
+    "name": "pfile_013.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1566
+  },
+  {
+    "name": "pfile_014.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 260
+  },
+  {
+    "name": "pGkZtKHRxABxvJdsY.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3629
+  },
+  {
+    "name": "pHmsqotntUatHYeGUOcjNNJJA.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2385
+  },
+  {
+    "name": "PORHzpJkzSjicCOn.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 773
+  },
+  {
+    "name": "PSaHVUaMriFUKtljFPyLu.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3670
+  },
+  {
+    "name": "PULvzogbyivXkzBnZ.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3746
+  },
+  {
+    "name": "qQcPJLFtGfRWzAkdGlWrgDbGvkqGF.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3192
+  },
+  {
+    "name": "qWiOZjpanHXlxr.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2307
+  },
+  {
+    "name": "RdVBgm.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3342
+  },
+  {
+    "name": "RjDAjeLQXMhNxnEbjCr.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2628
+  },
+  {
+    "name": "RofGHjOXEXN.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2310
+  },
+  {
+    "name": "tfile_015.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2343
+  },
+  {
+    "name": "tjxHOY.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1757
+  },
+  {
+    "name": "tOVxsdAVCKEuqkayfOQls.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2929
+  },
+  {
+    "name": "txkWxrAAoBvPwdkZvVcrUobjQOXfpW.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1561
+  },
+  {
+    "name": "TyxYdOHMOpyYVJCEXrDHgHxo.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3942
+  },
+  {
+    "name": "tZRFifrbGOZXZiTzBze.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 375
+  },
+  {
+    "name": "uDPTunF.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2627
+  },
+  {
+    "name": "UGXbCWennFaBxGTyQikFgdwGbpK.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2760
+  },
+  {
+    "name": "ULlVDdqbAgD.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3208
+  },
+  {
+    "name": "Vfile_016.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3671
+  },
+  {
+    "name": "VXCajWKNndQqmRnfMVeoLBaMV.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1563
+  },
+  {
+    "name": "WAOVUWFdHNSqbi.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2550
+  },
+  {
+    "name": "wdjLoszlDOJpFAtu.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3125
+  },
+  {
+    "name": "wfile_017.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1188
+  },
+  {
+    "name": "Wfile_018.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 356
+  },
+  {
+    "name": "Wfile_019.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2431
+  },
+  {
+    "name": "WuMbMzQFxZrUNSrIdGouMHbRF.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3162
+  },
+  {
+    "name": "xInDponvEGPssnjBQxmbVlOAJ.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3042
+  },
+  {
+    "name": "xLCPWTozOY.mp3",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2675
+  },
+  {
+    "name": "XMShjYDmQJHBsfcw.json",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2950
+  },
+  {
+    "name": "YfHyUlSxVnUOLOTRWu.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3384
+  },
+  {
+    "name": "yfile_020.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 661
+  },
+  {
+    "name": "ygJXnAMYLIHgXx.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2350
+  },
+  {
+    "name": "yrbVBbbLkFTQtxPui.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1154
+  },
+  {
+    "name": "ZalHpSlowTMysp.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 2374
+  },
+  {
+    "name": "Zfile_021.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 3768
+  },
+  {
+    "name": "ZmRtOGXyrwlocv.png",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 1084
+  },
+  {
+    "name": "ZQYMopssRpuYPUs.txt",
+    "parent_dir": "Files",
+    "isdir": false,
+    "size": 367
+  },
+  {
+    "name": "Problem 2.py",
+    "parent_dir": "Problem 2",
+    "isdir": false,
+    "size": 2258
+  }
+]
