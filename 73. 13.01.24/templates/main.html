@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Одежда
+{% endblock %}
+
+{% block content %}
+    <section>
+        <div class="row text-center">
+            <h1 class="display-2">Добро пожаловать на сайт</h1>
+            <p>Вот наш ассортимент</p>
+        </div>
+        <div class="row">
+            {% for category in categories %}
+                <div class="col-12 col-md-6 text-center">
+                    <h2 class="display-6">{{ category.name }}</h2>
+                    <img src={{ category.item.image }}>
+                    <h3>{{ category.item.name }}</h3>
+                    <p>{{ category.item.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
