@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Приветствие
+{% endblock %}
+
+{% block content %}
+    <section>
+        <div class="row text-center">
+            <h1 class="display-2">Приветствую тебя {{ username }}</h1>
+            <p>Если это не вы, нажмите на кнопку ниже</p>
+        </div>
+        <div class="row text-center">
+            <form class="col-2 offset-5" method="post">
+                <button type="submit" class="btn btn-danger">Выйти</button>
+            </form>
+        </div>
+    </section>
+{% endblock %}
