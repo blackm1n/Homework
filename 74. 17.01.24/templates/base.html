@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <title>
+        {% block title %}
+            Название
+        {% endblock %}
+    </title>
+</head>
+<body class="container-fluid">
+    <header class="row modal-header">
+        <ul class="nav nav-pills justify-content-end align-items-end">
+            <li class="nav-item"><a href="" class="nav-link">Эти</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Ссылки</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Ничего</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Не</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Делают</a></li>
+        </ul>
+        <hr>
+    </header>
+    {% block content %}
+        Контент
+    {% endblock %}
+    <footer class="row fixed-bottom modal-footer">
+        <hr>
+        <p>Вставьте футер сюда</p>
+    </footer>
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
