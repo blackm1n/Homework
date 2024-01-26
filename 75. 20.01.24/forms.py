@@ -19,6 +19,10 @@ def EqualPassword(form, field):
     if field.data != fernet.decrypt(User.query.filter(User.email == form.email.data).first().password).decode():
         raise ValidationError('Неправильный пароль')
 
+def Exists(form, field):
+    if field.data in [user.email for user in User.query.all()]:
+        raise ValidationError('Пользователь с такой почтой существует')
+
 class LoginForm(FlaskForm):
     email = EmailField('Электронная Почта', validators=[DataRequired(), Email(), InDatabase])
     password = PasswordField('Пароль', validators=[DataRequired(), EqualPassword])
@@ -26,5 +30,5 @@ class LoginForm(FlaskForm):
 class RegisterForm(FlaskForm):
     name = StringField('Имя', validators=[DataRequired()])
     surname = StringField('Фамилия', validators=[DataRequired()])
-    email = EmailField('Электронная Почта', validators=[DataRequired(), Email()])
+    email = EmailField('Электронная Почта', validators=[DataRequired(), Email(), Exists])
     password = PasswordField('Пароль', validators=[DataRequired()])
