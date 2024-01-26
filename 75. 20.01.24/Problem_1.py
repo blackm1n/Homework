@@ -67,6 +67,7 @@ def register_post():
         response = make_response(redirect(url_for('login_get')))
         add_user(form.name.data, form.surname.data, form.email.data, fernet.encrypt(form.password.data.encode()))
         return response
+    return render_template('register.html', form=form)
 
 
 def add_user(name, surname, email, password):
