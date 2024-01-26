@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section>
+        <div class="row text-center">
+            <h1 class="display-2">Добро пожаловать на сайт</h1>
+            <p>
+                {% block text %}
+                    Текст
+                {% endblock %}
+            </p>
+        </div>
+        <div class="row text-center">
+            <form class="col-2 offset-5" method="post">
+                {{ form.csrf_token }}
+                {% for field in form if field.name != 'csrf_token' %}
+                <div class="mb-3">
+                    <p>
+                        {{ field.label }}<br>
+                        {{ field }}
+                        {% if field.errors %}
+                        <ul class="alert alert-danger">
+                            {% for error in field.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </p>
+                </div>
+                {% endfor %}
+                {% block button %}
+                    Кнопка
+                {% endblock %}
+            </form>
+        </div>
+    </section>
+{% endblock %}

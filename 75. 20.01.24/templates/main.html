@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Приветствие
+{% endblock %}
+
+{% block content %}
+    {% if logged_in %}
+    <section>
+        <div class="row text-center">
+            <h1 class="display-2">Приветствую тебя {{ name }} {{ surname }}</h1>
+            <p>Если это не вы, нажмите на кнопку ниже</p>
+        </div>
+        <div class="row text-center">
+            <form class="col-2 offset-5" method="post">
+                {{ form.csrf_token }}
+                <button type="submit" class="btn btn-danger">Выйти</button>
+            </form>
+        </div>
+    </section>
+    {% else %}
+    <section>
+        <div class="row text-center">
+            <h1 class="display-2">Приветствую тебя незнакомец</h1>
+            <p>Если у вас есть аккаунт, нажмите на кнопку ниже</p>
+            <p>Если у вас нету аккаунта, нажмите <a href="{{ url_for('register_get') }}">cюда</a> для регистрации</p>
+        </div>
+        <div class="row text-center">
+            <form class="col-2 offset-5" method="post">
+                {{ form.csrf_token }}
+                <button type="submit" class="btn btn-primary">Войти</button>
+            </form>
+        </div>
+    </section>
+    {% endif %}
+{% endblock %}
