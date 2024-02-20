@@ -1,0 +1,4 @@
+INFO 2024-02-14 00:17:01,256 autoreload 9688 18668 Watching for file changes with StatReloader
+INFO 2024-02-14 00:17:06,924 basehttp 9688 28144 "GET / HTTP/1.1" 200 481
+INFO 2024-02-14 00:17:09,874 basehttp 9688 28144 "GET /about HTTP/1.1" 301 0
+INFO 2024-02-14 00:17:09,881 basehttp 9688 10040 "GET /about/ HTTP/1.1" 200 990
